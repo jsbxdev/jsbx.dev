@@ -1,33 +1,26 @@
 <template>
   <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
+    <div class="hero p-3">
+      <h2>hashhda</h2>
+    </div>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: "JSBX Consulting"
   }
-}
+};
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
+.hero {
+  background-image: radial-gradient(
+    70% 70% at 50% 100%,
+    rgb(232, 232, 232) 0%,
+    rgb(250, 250, 250) 100%
+  );
+  height: 800px;
 }
 </style>
